@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    float: left;
+    width: 20%;
+    height: 100px;
+}
+#logo2{
+    box-sizing: border-box;
+    width: 55%;
+    height: 55%;
+}
+#espacio{
+    float: left;
+    width: 10%;
+    height: 100px;
+    
+}
+#menu{
+    float: right;
+    width: 70%;
+    height: 100px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 30px;
+}
+#izq{
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    width: 49.6%;
+    height: 200px;
+    border: 2px rgb(25, 96, 96) solid;
+}
+#der{
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    width: 49.6%;
+    height: 200px;
+    border: 2px rgb(25, 96, 96) solid;
+}
+#contenedor{
+    box-sizing: border-box;
+    width: 95%;
+    margin: 9px auto;
+    border: 1px rgb(25, 0, 255) solid;
+}
+#uno{
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    width: 33%;
+    height: 200px;
+    border: 2px rgb(25, 96, 96) solid;
+}
+#dos{
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    width: 33%;
+    height: 200px;
+    border: 2px rgb(25, 96, 96) solid;
+}
+#tres {
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    width: 33%;
+    height: 200px;
+    border: 2px rgb(25, 96, 96) solid;
+}
+#abizq{
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    width: 49.6%;
+    height: 200px;
+    border: 2px rgb(25, 96, 96) solid;
+}
+#abder{
+    float: left;
+    box-sizing: border-box;
+    margin: 2px;
+    width: 49.6%;
+    height: 200px;
+    border: 2px rgb(25, 96, 96) solid;
+}
+footer{
+    clear: both;
+    height: 150px;
+    background-color: rgb(91, 121, 131);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: o.5em;
+    padding: 2%;
+}
+h3{
+    text-align: center;
+}
+main{
+    clear: both;
+}
+body{
+    background-color: bisque;
+}
+
+
+

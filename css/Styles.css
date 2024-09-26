@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(23, 37, 164, 0.56);
+}
+#contenedor{
+    width: 95%;
+    margin: 10px auto ;
+}
+nav{
+
+}
+#logo{
+    float: left;
+    width: 15%;
+    height: 100px;
+    text-align: center;
+}
+#menu{
+    float: left;
+    width: 65%;
+    height: 100px;
+}
+#redes{
+    float: left;
+    width: 20%;
+    height: 100px;
+    font-size: 25px; 
+}
+header{ clear: both; /* anula flotamiento */
+    /* height: 250px; */
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px;
+}
+#izq{
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 33.34%;
+    height: 560px;
+    background-color: #bd5218ca;
+}
+#centro{
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 33.33%;
+    height: 560px;
+    background-color: #9948c8;
+}
+#der{
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 33.33%;
+    height: 560px;
+    background-color: #fe00b6;
+}
+#uno{
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    clear: both;
+    float: left;
+    width: 50%;
+    height: 250px;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+#dos{
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    height: 250px;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    clear: both;
+    height: 150px;
+    background-color: rgb(15, 94, 197);
+}
+#logo2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 23px;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 30px;
+} 
+a:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px 10px ;
+}
+#creador {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+h3{
+    
+    text-align: center;
+}
+#controles{
+    margin-top: 25px;
+    width: 140px;
+    height: 140px;
+}
+h2{
+    padding-top:15px;
+    padding-left: 10px;
+}
+a{
+    color: white;
+}

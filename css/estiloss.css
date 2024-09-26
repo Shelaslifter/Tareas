@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: wheat;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+#Encabezado {
+    margin-top: 2em;
+    text-align: center;
+    width: 90%;
+}
+
+header {
+    margin-top: 1em;
+    width: 90%;
+    text-align: center;
+    /* esta etiqueta se utiliza para mover cualquier cosa de arriba a abajo  */
+}
+
+#Indice {
+    margin: 5%;
+    text-align: left;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(35, 68, 141);
+    text-decoration: none;
+}
+
+p {
+    width: 90%;
+    margin: 4%;
+    text-align: justify;
+}
+
+#Text {
+    text-align: left;
+}
+
+table {
+    margin: 5%;
+}

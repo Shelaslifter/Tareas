@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(212, 175, 1);
+    background-image: linear-gradient(black);
+    color: rgb(209, 203, 203);
+
+.transparente{
+
+    background-color: aliceblue;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    width: 200px;
+
+}
+}
+
+#contenedor{
+    width: 60%;
+    margin: 5px auto;
+    border: 4px rgb(255, 1, 33) solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    border-radius: 60%;
+  }
+  
+ #nombre{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #apellidos{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #municipio{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #estado{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #Codigo{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #numero{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #date{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #termino{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #msg{
+     background: inherit;
+     color: #ffffff;
+ }
+ 
+  #imagen{
+     background: inherit;
+     color: #ffffff;
+ }

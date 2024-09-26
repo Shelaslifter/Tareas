@@ -1,0 +1,133 @@
+/* selector universal "*" */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* en esta etiqueta solo se agregan margen y sagrias  */
+
+
+/* Selector body */
+
+body {
+    background-color: rgb(193, 191, 214);
+    /* color de fondo */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+#contenedor {
+    width: 90%;
+    margin: 5px auto;
+    border: 5px silver inset;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: gray;
+    text-align: center;
+    position: fixed;
+    width: 90%;
+    margin-bottom: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 25 px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+header {
+    height: 150px;
+    margin-top: 45px;
+    background: silver url("../imagenes/fondo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 150px;
+    /* esta etiqueta se utiliza para mover cualquier cosa de arriba a abajo  */
+}
+
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    margin: 30px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    padding: 10 px;
+    text-align: justify;
+    border: 1px silver solid;
+    border-radius: 10px;
+    margin: 0px 25px;
+}
+
+#Impar {
+    color: red;
+    border-top-right-radius: 65px;
+}
+
+#Par {
+    color: rgb(0, 0, 0);
+}
+
+hr {
+    margin: 10px auto;
+    width: 70%;
+    color: silver;
+}
+
+#Panel {
+    width: 50%;
+    margin: 10px auto;
+    /* height: 300px;  */
+    border: 1px silver outset;
+    border-radius: 10px;
+}
+
+.caja {
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+}
+
+.Mensaje {
+    width: 90%;
+    margin-left: 5%;
+    height: 30px;
+}
+
+.altura {
+    height: 80px;
+}
+
+.boton {
+    width: 50%;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(67, 6, 233);
+    margin-left: 25%;
+    height: 10%;
+    margin-bottom: 10px;
+}
